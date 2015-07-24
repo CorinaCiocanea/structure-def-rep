@@ -2,7 +2,7 @@
     "resourceType":"StructureDefinition",
     "id":"condition-qicore-qicore-condition",
     "meta":{
-        "versionId":"spark62",
+        "versionId":"spark63",
         "lastUpdated":"5/11/2015 14:16:00 AM"
     },
     "url":"http://hl7.org/fhir/StructureDefinition/condition-qicore-qicore-condition",
