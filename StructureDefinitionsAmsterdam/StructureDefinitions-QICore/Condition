@@ -7,7 +7,7 @@
     },
     "url":"http://hl7.org/fhir/StructureDefinition/condition-qicore-qicore-condition",
     "name":"QICore-Condition",
-    "publisher":"Health Level Seven, Inc. - CQI WG",
+    "publisher":"Health Level Seven, Inc. - CQI WssG",
     "contact": [
         {
             "telecom": [
