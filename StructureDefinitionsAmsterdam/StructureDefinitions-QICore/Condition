@@ -1,6 +1,6 @@
 {
     "resourceType":"StructureDefinition",
-    "id":"condition-qicore-qicore-condition",
+    "id":"condition-qicore-qittcore-condition",
     "meta":{
         "versionId":"spark63",
         "lastUpdated":"5/11/2015 14:16:00 AM"
