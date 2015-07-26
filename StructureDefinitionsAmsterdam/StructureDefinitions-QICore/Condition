@@ -48,7 +48,7 @@
                 "mapping": [
                     {
                         "identity":"v2",
-                        "map":"PPR message"
+                        "map":"PPR mess"
                     },
                     {
                         "identity":"rim",
@@ -121,7 +121,7 @@
             {
                 "path":"Condition.text",
                 "short":"Text summary of the resource, for human interpretation",
-                "definition":"A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it "clinically safe" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
+                "definition":"A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
                 "comments":"Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative.",
                 "alias": [
                     "narrative",
@@ -479,7 +479,7 @@
                     },
                     {
                         "identity":"rim",
-                        "map":"Can be pre/post-coordinated into value.  Or ./inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code="severity"].value"
+                        "map":"Can be pre/post-coordinated into value.  Or ./inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=\"severity\"].value"
                     },
                     {
                         "identity":"qdm",
@@ -519,7 +519,7 @@
                     },
                     {
                         "identity":"rim",
-                        "map":".effectiveTime.low or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code="age at onset"].value"
+                        "map":".effectiveTime.low or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=\"age at onset\"].value"
                     },
                     {
                         "identity":"qdm",
@@ -530,7 +530,7 @@
             {
                 "path":"Condition.abatement[x]",
                 "short":"If/when in resolution/remission",
-                "definition":"The date or estimated date that the condition resolved or went into remission. This is called "abatement" because of the many overloaded connotations associated with "remission" or "resolution" - Conditions are never really resolved, but they can abate.",
+                "definition":"The date or estimated date that the condition resolved or went into remission. This is called \"abatement\" because of the many overloaded connotations associated with \"remission\" or \"resolution\" - Conditions are never really resolved, but they can abate.",
                 "comments":"There is no explicit distinction between resolution and remission because in many cases the distinction is not clear. Age is generally used when the patient reports an age at which the Condition abated.  If there is no abatement element, it is unknown whether the condition has resolved or entered remission; applications and users should generally assume that the condition is still valid.",
                 "min":"0",
                 "max":"1",
@@ -558,7 +558,7 @@
                 "mapping": [
                     {
                         "identity":"rim",
-                        "map":".effectiveTime.high or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code="age at remission"].value or .inboundRelationship[typeCode=SUBJ]source[classCode=CONC, moodCode=EVN].status=completed"
+                        "map":".effectiveTime.high or .inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=\"age at remission\"].value or .inboundRelationship[typeCode=SUBJ]source[classCode=CONC, moodCode=EVN].status=completed"
                     },
                     {
                         "identity":"qdm",
@@ -585,7 +585,7 @@
                 "mapping": [
                     {
                         "identity":"rim",
-                        "map":"./inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code="stage/grade"]"
+                        "map":"./inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=\"stage/grade\"]"
                     }
                 ]
             },
@@ -661,7 +661,7 @@
             {
                 "path":"Condition.stage.summary",
                 "short":"Simple summary (disease specific)",
-                "definition":"A simple summary of the stage such as "Stage 3". The determination of the stage is disease-specific.",
+                "definition":"A simple summary of the stage such as \"Stage 3\". The determination of the stage is disease-specific.",
                 "min":"0",
                 "max":"1",
                 "type": [
@@ -835,7 +835,7 @@
                 "mapping": [
                     {
                         "identity":"rim",
-                        "map":"[code="diagnosis"].value"
+                        "map":"[code=\"diagnosis\"].value"
                     }
                 ]
             },
@@ -1316,7 +1316,7 @@
                     },
                     {
                         "identity":"rim",
-                        "map":".inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code="annotation"].value"
+                        "map":".inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=\"annotation\"].value"
                     }
                 ]
             }
