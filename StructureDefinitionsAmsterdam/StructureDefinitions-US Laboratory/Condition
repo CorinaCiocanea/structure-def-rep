@@ -23,5 +23,5 @@
     "date":"2014-11-17",
     "type":"constraint",
     "abstract":false,
-    "base":"http://hl7.org/fhir/StructureDefinition/Condition",
+    "base":"http://hl7.org/fhir/StructureDefinition/Condition"
  }
