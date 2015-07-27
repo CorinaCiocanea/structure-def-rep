@@ -1,8 +1,8 @@
 {
     "resourceType":"StructureDefinition",
-    "id":"condition-qicore-qittcore-condition-changed",
+    "id":"condition-qicore-qittcore-condition",
     "meta":{
-        "versionId":"spark90",
+        "versionId":"spark95",
         "lastUpdated":"5/11/2015 8:16:00 AM"
     },
     "url":"http://hl7.org/fhir/StructureDefinition/condition-qicore-qicore-condition",
