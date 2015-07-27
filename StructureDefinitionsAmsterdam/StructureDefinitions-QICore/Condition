@@ -2,11 +2,11 @@
     "resourceType":"StructureDefinition",
     "id":"condition-qicore-qittcore-condition-changed",
     "meta":{
-        "versionId":"spark73",
+        "versionId":"spark90",
         "lastUpdated":"5/11/2015 8:16:00 AM"
     },
     "url":"http://hl7.org/fhir/StructureDefinition/condition-qicore-qicore-condition",
-    "name":"QICore-Condition",
+    "name":"QICore-Condition-changed",
     "publisher":"Health Level Seven, Inc. - CQI WssG",
     "contact": [
         {
